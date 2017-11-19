@@ -1,0 +1,157 @@
+<html>
+
+<head>
+	<title>Candy World Store</title>
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Pacifico" rel="stylesheet">
+	<style>
+		*{
+			font-family: 'Architects Daughter', cursive;
+		}
+		body {
+/*			background-color: mediumslateblue;*/
+/*			background-color: #CFC8F8;*/
+			background-color: #BEC8F8;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+			letter-spacing: 10px;
+			color: black;
+			font-size: 24px;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		a:hover:not(.active) {
+			background-color: #111;
+		}
+
+		.active {
+			background-color: dodgerblue;
+		}
+
+		p {
+			color: black;
+			border: 7px inset dodgerblue;
+			border-radius: 5px;
+/*			font-family: serif;*/
+			padding:40px;
+			background: #fff;
+		}
+
+		h1 {
+/*			color: mediumblue;*/
+			color: #fff;
+			letter-spacing: 3px;
+			background-color: mediumpurple;
+/*			width: 900px;*/
+/*			border: 25px solid dodgerblue;*/
+			padding: 25px;
+			margin: 0px auto;
+			align-items: center;
+			text-align: center;
+			font-family: 'Pacifico', cursive;
+		}
+
+		a {
+			font-size: 34px;
+			word-break: break-all;
+		}
+
+		.p2 {
+			font-weight: 700;
+		}
+		
+		footer{
+			background:#333;
+			padding:30px;
+		}
+
+		footer a {
+			color: dodgerblue;
+		}
+		#social{
+			padding:40px;
+		}
+		
+		.content{
+			width:600px;
+			margin:0 auto;
+		}
+		@keyframes Spin{
+			0%{
+				transform: rotate(0deg);
+				
+			}
+			100%{
+				transform: rotate(360deg);
+				
+			}
+		}
+		.Candy{
+			animation: Spin 6s linear infinite;
+		}
+	</style>
+</head>
+<body style="text-align: center">
+	<div>
+		<h1 style="align-content:center">&#127852;CANDY WORLD STORE&#127852;</h1>
+	</div>
+	<ul>
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a href="#About">About</a></li>
+		<li><a href="#Shop">Shop</a></li>
+		<li><a href="#Contact">Contact</a></li>
+	</ul>
+	<video controls>
+		<source src="Assets/Video/Candy%20Backgrounds%20-%20SlideShow%20With%20Relaxing%20Classical%20Music.mp4">
+	</video>
+	<div>
+		<img src="Assets/Img/Snickers.png" class="Candy">
+		<img src="Assets/Img/lollipop.png" class="Candy">
+	</div>
+	<div class="content">
+		<p> Candy World supplies a wide variety of wholesale candy to the Caribbean, North, South and Central America and the World for the lowest possible price. Our showroom is located at 1720 NW 20th Street, Miami, FL 33142. If you are not able to come in, in person, you may continue to browse our website for some of the many different candies that we have in stock. Or you may also call us at 347-882-8722 for a one on one phone meeting to learn about our weekly specials and the best wholesale price that we have to offer. We also ship locally and internationally to our customers.</p>
+	
+	<p>If you are planning a birthday party, baby shower or even a wedding, you should contact us for a list of candies that we have in store that will fill your goody bags and party favors.</p>
+	<p>Contact Information:<br>
+Phone: (347) 882-8722<br>
+Fax: (718) 604-9464<br>
+Email: info@candyworld.com<br>
+Office Hours: Monday- Friday 9:00 AM to 5:30 PM<br> Saturday 9:00 AM to 5:00 PM</p>
+		</div>
+	<div id="social">
+		<img src="assets/Img/facebook%20(2).png">
+		<img src="assets/Img//Instagram.png">
+		<img src="assets/Img/Twitter (1).png">
+		<img src="assets/Img/Pinterest.png">
+	</div>
+
+	<form action="" name="frm" method="post">
+		<b>Newsletter signup</b>
+		Name: <input type="text" name="fname">
+		Email: <input type="text" name="fname">
+		<input type="submit" value="Submit">
+	</form>
+	<footer>
+			<a href="index.html">Terms</a>
+			<a href="index.html">Privacy</a>
+			<a href="index.html">Careers</a>
+			<a href="index.html">Status</a>
+	</footer>
+</body>
+</html>
